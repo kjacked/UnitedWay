@@ -1,0 +1,42 @@
+<ion-view title="Donate" id="page1">
+    <ion-content padding="true" class="has-header">
+        <ion-list id="donate-list1">
+            <ion-item id="donate-list-item3">Pay What You Want!</ion-item>
+        </ion-list>
+        <div id="donate-button-bar1" class="button-bar">
+            <button id="donate-button1" style="border-radius:10px 10px 10px 10px;" class="button button-dark  button-block">$25</button>
+            <button id="donate-button2" style="border-radius:10px 10px 10px 10px;" class="button button-dark  button-block">$100</button>
+            <button id="donate-button3" style="border-radius:10px 10px 10px 10px;" class="button button-balanced  button-block">Custom</button>
+        </div>
+        <form id="donate-form2" class="list">
+            <label class="item item-input" id="donate-input1" name="customAmount">
+                <span class="input-label">Amount</span>
+                <input type="number" placeholder="$50">
+            </label>
+            <ion-item class="range range-positive" id="donate-range2">UWDE
+                <input type="range" value="25" min="0" max="100" step="1" name="generalDonation">
+            </ion-item>
+            <ion-item class="range range-positive" id="donate-range3">Education
+                <input type="range" value="0" min="0" max="100" step="1" name="educationDonation">
+            </ion-item>
+            <ion-item class="range range-positive" id="donate-range4">Income
+                <input type="range" value="12.5" min="0" max="100" step="1" name="incomeDonation">
+            </ion-item>
+            <ion-item class="range range-positive" id="donate-range5">Health
+                <input type="range" value="12.5" min="0" max="100" step="1" name="healthDonation">
+            </ion-item>
+            <label class="item item-select" id="donate-select2" name="passionSelector">
+                <span class="input-label">Choose Your Passion</span>
+                <select>
+                    <option></option>
+                </select>
+            </label>
+            <ion-item class="range range-positive" id="donate-range6">3rd Grade Reading
+                <input type="range" value="50" min="0" max="100" step="1" name="passionDonation">
+            </ion-item>
+            <div>
+                <img src="img/A6SbVwOUSYykmKutsbDC_ScreenShot2016-10-07at11.06.50PM.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+        </form>
+    </ion-content>
+</ion-view>
